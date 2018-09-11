@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C84730214766550056FEA0 /* HJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8472F214766550056FEA0 /* HJViewController.m */; };
+		15C84733214766A90056FEA0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C84732214766A90056FEA0 /* SecondViewController.m */; };
+		15C84736214769270056FEA0 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C84735214769270056FEA0 /* UIColor+Hex.m */; };
 		46EC5E80604279B1243E44C5 /* Pods_HJImagePopMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA6F3D3EDFDACF2E965FF62 /* Pods_HJImagePopMenu_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -14,7 +17,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +25,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7229A2681CD49B8FE7769135 /* Pods_HJImagePopMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72619732F0B8A40C62F24EDE /* Pods_HJImagePopMenu_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C8472E214766550056FEA0 /* HJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJViewController.h; sourceTree = "<group>"; };
+		15C8472F214766550056FEA0 /* HJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJViewController.m; sourceTree = "<group>"; };
+		15C84731214766A90056FEA0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15C84732214766A90056FEA0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		15C84734214769270056FEA0 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		15C84735214769270056FEA0 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HJImagePopMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJImagePopMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +54,6 @@
 		6003F59B195388D20070C39A /* HJImagePopMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HJImagePopMenu-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* HJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* HJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HJImagePopMenu_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJImagePopMenu_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,13 +64,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72619732F0B8A40C62F24EDE /* Pods_HJImagePopMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJImagePopMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8508EED8E7E6AEAA07260F78 /* Pods-HJImagePopMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJImagePopMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJImagePopMenu_Tests/Pods-HJImagePopMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C20B27CB8A52AFE6FD265D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9C20B27CB8A52AFE6FD265D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BCA6F3D3EDFDACF2E965FF62 /* Pods_HJImagePopMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJImagePopMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD84F46FD58421C3E44B9757 /* HJImagePopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HJImagePopMenu.podspec; path = ../HJImagePopMenu.podspec; sourceTree = "<group>"; };
+		BD84F46FD58421C3E44B9757 /* HJImagePopMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJImagePopMenu.podspec; path = ../HJImagePopMenu.podspec; sourceTree = "<group>"; };
 		C9FC9F7D057B18B462CA4B72 /* Pods-HJImagePopMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJImagePopMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJImagePopMenu_Example/Pods-HJImagePopMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2D937DF33A528EBF2DBB1F /* Pods-HJImagePopMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJImagePopMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJImagePopMenu_Example/Pods-HJImagePopMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F251639BF7028E60F9385596 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F251639BF7028E60F9385596 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F55F603D35A9135C9E6FB3EE /* Pods-HJImagePopMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJImagePopMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJImagePopMenu_Tests/Pods-HJImagePopMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,11 +136,14 @@
 		6003F593195388D20070C39A /* Example for HJImagePopMenu */ = {
 			isa = PBXGroup;
 			children = (
+				15C84734214769270056FEA0 /* UIColor+Hex.h */,
+				15C84735214769270056FEA0 /* UIColor+Hex.m */,
 				6003F59C195388D20070C39A /* HJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HJAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HJViewController.h */,
-				6003F5A6195388D20070C39A /* HJViewController.m */,
+				15C8472E214766550056FEA0 /* HJViewController.h */,
+				15C8472F214766550056FEA0 /* HJViewController.m */,
+				15C84731214766A90056FEA0 /* SecondViewController.h */,
+				15C84732214766A90056FEA0 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -276,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -338,10 +344,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HJImagePopMenu_Example/Pods-HJImagePopMenu_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HJImagePopMenu/HJImagePopMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HJImagePopMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -355,8 +367,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C84733214766A90056FEA0 /* SecondViewController.m in Sources */,
+				15C84736214769270056FEA0 /* UIColor+Hex.m in Sources */,
+				15C84730214766550056FEA0 /* HJViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
